@@ -1,0 +1,132 @@
+@charset "UTF-8"
+
+
+body {
+     font-family: Raleway, "sans-serif";
+     font-size: medium;
+     line-height: 1.75em;
+     }     
+
+HTML {     
+     background-color: snow;
+    }
+
+h1 {
+     font: bold 2em "Abril Fatface", "Lucida Grande", Geneva, "sans-serif";
+     color: darkred;
+     text-shadow: .05em .05em .1em lightslategray;
+     border-bottom: 1px solid;
+    }
+
+h2 {
+     font-size: 1em;
+     font-family: Raleway, "sans-serif";
+     letter-spacing: .25em;
+     color: midnightblue;
+    }
+
+h3 {
+     font-size: 1em;
+     font-family: Raleway, "sans-serif";
+     font-weight: bolder;
+     letter-spacing: .25em;
+     color: midnightblue;
+    }
+
+p {
+     font-family: Raleway, "sans-serif";
+     text-align: center
+}
+
+dt { 
+     font-family: Raleway, "sans-serif";
+     font-weight: regular;
+     color: midnightblue; 
+    }
+
+dd {
+     font-family: Raleway, "sans-serif";
+     font-weight: regular;
+     color: black;
+}
+
+ol {
+     font-family: Raleway, "sans-serif";
+     font-weight: regular;
+     color: black;
+}
+strong { 
+     font-style: italic; 
+    }
+
+dt strong { 
+     color: tomato; 
+    }
+
+#info p { 
+     font-style: italic;
+     color: gray; 
+    }
+
+.price {
+     font-family: Georgia, serif;
+     font-style: italic;
+     color: gray;
+    }
+
+.label {
+     font-weight: bold;
+     font-variant: small-caps;
+     font-style: normal;
+    }
+
+.warning, sup {
+     font-size: small;
+     color: red;
+    }
+
+h1, h2, #info {
+     text-align: center; 
+    }
+
+h2{
+     text-align: center;
+     font-style: regular;
+    }
+
+.navigation-style {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: lightslategray;
+   font-family: Raleway, "sans-serif";
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   font-family: Raleway, "sans-serif";
+}
+
+li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+li a:hover {
+   background-color: #F5F5F5;
+   color: black;
+}
+
+tr {
+   font-family: Raleway, "sans-serif";
+   font-weight: regular;
+   color: midnightblue;
+}
+   
