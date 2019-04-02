@@ -1,0 +1,189 @@
+@charset "UTF-8"
+
+
+
+body {
+   font-family: Georgia, Baskerville, serif;
+   font-size: medium;
+   line-height: normal;    
+}
+
+HTML {     
+     background-color: snow;
+    }
+
+h1 {
+   font-family: Montserrat, Avenir, sans-serif;
+   font-style: regular;
+   font-weight: lighter; 
+   text-align: center;
+   color: snow;
+}
+
+h3 {
+   font-family: Montserrat, Avenir, "sans-serif";
+   text-align: center;
+   color: #e9afa3;
+   font-size: 85%;
+   font-style: italic;
+}
+
+h4 {
+   font-family: Montserrat, Avenir, "sans-serif";
+   font-style: bold;
+   color: #e9afa3;
+   text-align: center;
+   font-size: 110%
+}
+
+p {
+   font-family: Montserrat, Avenir, "sans-serif";
+   font-style: medium;
+   color: midnightblue;
+   text-align: center;
+}
+
+.heading-style {
+   font-family: Montserrat, Avenir, "sans-serif";
+   font-style: italic;
+   color: snow;
+   text-align: center;
+}
+
+.circle-picture {
+ border-radius: 70%;
+ height: 130px;
+ width: 130px;
+ overflow: hidden;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.center-picture {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 10%
+}
+
+ul.contact {
+font-family: Montserrat, Avenir, "sans-serif";
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ text-align:center;
+ color: midnightblue;
+}
+
+li.contact {
+  display: inline;
+  float: none;
+  padding: 60px;
+}
+
+.border {
+border-color: lightslategray;
+border-width: thin;
+border-style: solid;
+text-align: center;
+border-bottom-style: none;
+border-top-style: solid;
+border-right-style: none;
+border-left-style: none;
+}
+
+td {
+  font-family: Montserrat, Avenir, "sans-serif";
+  color: midnightblue;
+  padding-right: 30px;
+  text-align: center;
+}
+
+.floatleft {
+   float: left;
+   padding-left: 150px;
+
+}
+
+.floatright {
+   float: right;
+   padding-right: 150px;
+   border-left-style: solid;
+   border-left-color: lightslategray;
+   border-left-width: thin;
+   padding-left: 100px;
+}
+
+
+
+.contactpadding {
+   padding-top: 20px;
+}
+
+.header {
+  padding: 35px;
+  text-align: center;
+  background: #283044;
+}
+
+.circle-projects {
+ border-radius: 70%;
+ height: 140px;
+ width: 140px;
+ overflow: hidden;
+ display: inline-block;
+ justify-content: center;
+ align-items: center;
+ margin: 35px;
+}
+
+.th {
+  font-family: Montserrat, Avenir, "sans-serif";
+  color: midnightblue;
+  padding-right: 30px;
+  align-items: center;
+  padding: 0;
+  margin-top: -40px;
+  margin-bottom: 10px;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+}
+
+.td-picture-descriptions {
+  font-family: Montserrat, Avenir, "sans-serif";
+  color: midnightblue;
+  padding-right: 30px;
+  align-items: center;
+  padding: 0;
+  margin-top: -40px;
+  margin-bottom: 40px;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+}
+
+.social-media {
+  font-family: Montserrat, Avenir, "sans-serif";
+  color: midnightblue;
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+.project-pages {
+   font-family: Montserrat, Avenir, "sans-serif";
+   font-style: regular;
+   font-weight: lighter; 
+   text-align: center;
+   color: midnightblue;
+}
+
+th {   
+   font-family: Montserrat, Avenir, "sans-serif";
+   font-style: bold;
+   color: #e9afa3;
+   text-align: center;
+   font-size: 110%
+}
+ 
